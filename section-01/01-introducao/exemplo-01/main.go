@@ -9,7 +9,7 @@ type Client struct {
 	LastName string
 }
 
-func (c Client) FullName() string {
+func (c Client) FullName() string{
 	return fmt.Sprintf("%s %s", c.Name, c.LastName)
 }
 
